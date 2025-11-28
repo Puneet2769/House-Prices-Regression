@@ -73,7 +73,7 @@ Copy code
 ├── test.csv                   # (not included)
 ├── requirements.txt
 └── README.md
-⚠️ Notes & Tips
+# ⚠️ Notes & Tips
 Id is excluded from numeric features by default — it’s not used as a predictor.
 
 If you want higher leaderboard performance:
@@ -88,9 +88,10 @@ Blend XGBoost with LightGBM / CatBoost for robust ensembles.
 
 CV uses neg_root_mean_squared_error (sklearn convention), and printed RMSE is the positive value.
 
-👤 Author
+
+# 👤 Author
 Puneet Poddar
 Kaggle: https://www.kaggle.com/puneet2769
 
-📌 License / Attribution
+# 📌 License / Attribution
 Feel free to reuse or adapt this pipeline for your experiments. If you publish results, credit the original data source (Kaggle competition).
