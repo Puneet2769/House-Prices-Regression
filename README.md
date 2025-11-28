@@ -55,6 +55,7 @@ Run:
 
 ```bash
 python house_prices_pipeline.py
+```
 What the script does:
 
 Prints data shapes and a small train sample.
