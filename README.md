@@ -63,16 +63,16 @@ Prints data shapes and a small train sample.
 Runs 5-fold CV and prints RMSE (on log1p scale).
 
 Trains on all training data and writes submission_Final.csv with columns Id, SalePrice.
-
+```bash
 📁 Repository structure
-bash
-Copy code
+
 ├── house_prices_pipeline.py   # main pipeline (the code you shared)
 ├── submission_Final.csv       # generated submission (after running)
 ├── train.csv                  # (not included)
 ├── test.csv                   # (not included)
 ├── requirements.txt
 └── README.md
+```
 # ⚠️ Notes & Tips
 Id is excluded from numeric features by default — it’s not used as a predictor.
 
